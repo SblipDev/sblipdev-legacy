@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script>
+    var show = document.getElementById('nav');
+      function showMenu() {
+        show.style.right = '0';
+      }
+      function hideMenu() {
+        show.style.right = '-200px';
+      }
+  </script>
+
+  <script>MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "http://medium.com/@sblip/", "postsPerLine": 1, "limit": 8, "picture": "small", "fields": ["description", "author", "claps", "likes", "publishAt"], "ratio": "landscape" } })</script>
+
+  
+</html>
