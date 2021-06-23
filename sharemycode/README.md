@@ -1,7 +1,7 @@
-# sblip.dev Alpha 1.5.6
+# sblip.dev 1.5.7
 
-# Steps:
+### Steps:
 
-## 1. Use requirements.txt to install dependencies.
-## 2. Run npm install in folder 'frontend' to install node packages.
-## 3. Done!
+1. Use requirements.txt to install dependencies.
+2. Run npm install in folder 'frontend' to install node packages.
+3. Done!
